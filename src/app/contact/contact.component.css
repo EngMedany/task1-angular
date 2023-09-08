@@ -1,0 +1,13 @@
+h1 {
+    color: #2c3e50 !important;
+  }
+  .form-control {
+    box-shadow: none;
+  }
+  label {
+    transform: translateY(40px);
+    transition: transform 0.3s;
+    color: #1abc9c
+    ;
+  }
+  

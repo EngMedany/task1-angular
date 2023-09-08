@@ -1,0 +1,68 @@
+<div class="contact-content">
+    <div class="d-flex justify-content-center align-items-center flex-column">
+      <h1 class="text-white p-3 text-center fw-bolder">CONATCT SECTION</h1>
+      <app-after2 class="demo"></app-after2>
+    </div>
+    <form class="w-50 p-3 mx-auto mt-5">
+      <label
+        [style]="
+          !isEmptyName
+            ? 'transform: translateY(0px)'
+            : 'transform: translateY(40px)'
+        "
+        >userName :
+      </label>
+      <input
+        (keyup)="showLabelName($event)"
+        type="text"
+        placeholder="userName"
+        class="form-control border-0 border-bottom py-3 position-relative"
+      />
+      <label
+        [style]="
+          !isEmptyAge
+            ? 'transform: translateY(0px)'
+            : 'transform: translateY(40px)'
+        "
+        >userAge :
+      </label>
+      <input
+        (keyup)="showLabelAge($event)"
+        type="text"
+        placeholder="userAge"
+        class="form-control border-0 border-bottom py-3 position-relative"
+      />
+      <label
+        [style]="
+          !isEmptyEmail
+            ? 'transform: translateY(0px)'
+            : 'transform: translateY(40px)'
+        "
+        >userEmail :
+      </label>
+      <input
+        (keyup)="showLabelEmail($event)"
+        type="text"
+        placeholder="userEmail"
+        class="form-control border-0 border-bottom py-3 position-relative"
+      />
+      <label
+        [style]="
+          !isEmptyPass
+            ? 'transform: translateY(0px)'
+            : 'transform: translateY(40px)'
+        "
+        >userPassword :
+      </label>
+      <input
+        (keyup)="showLabelPass($event)"
+        type="text"
+        placeholder="userPassword"
+        class="form-control border-0 border-bottom py-3 position-relative"
+      />
+      <button class="btn mt-4 text-white" style="background-color: #1abc9c">
+        send Message
+      </button>
+    </form>
+  </div>
+  

@@ -1,0 +1,30 @@
+.container{
+    height: 300px;
+
+}
+
+.footer-content{
+    background-color: #2C3E50;
+}
+.social-link i{
+    border: solid 1px #fff;
+    padding: 9px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    
+
+}
+.social-link{
+    gap: 10px;
+    margin: auto;
+}
+
+.bottom{
+    background-color: #1A252F;
+}
+ul{
+    list-style: none ;
+    display: flex;
+    gap: 5px;
+}
